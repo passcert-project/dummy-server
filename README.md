@@ -23,7 +23,13 @@ In order to generate these websites, simple run `python generate_sites_policies.
 
 **NOTE** Use quotation marks - `"` around both arguments.
 
----
+### Example usage
+
+`python generate_sites_policies.py "minlength:25;maxlength:30;required:upper;allowed:digit; "example"`
+
+This will generate the file example.html
+
+To run the server, `npm i` and then `npm start` or `node server.js`
 
 ## Requirements
 
