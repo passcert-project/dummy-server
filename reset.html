@@ -24,7 +24,11 @@
                 <div class="form-group">
 
                     <input type="password" class="form-control" name="password" id="inputPasswordHidden" placeholder="New Password" 
-                    passwordrules="minlength: 8; maxlength: 23; required: upper, digit; allowed: special;">
+                    passwordrules="minclasses:4; minlength: 10; blocklist: default;">
+                    <!-- minclasses:4; minlength: 10; blocklist: default; -->
+                    <!-- required: lower(1,4), special(5,5); required: upper; allowed: digit; minlength: 15; -->
+                    <!-- required: [1]; required: [2](4,6); required: upper; allowed: digit; minlength: 15; -->
+                    <!-- "required: [abcd], [AZ](3, 5); required: [#Jz](3,3); required: upper(3,10); allowed: digit, special; minlength: 10; blocklist: default;" -->
                     <!-- passwordrules="minlength: 15; maxlength: 23; required: upper, digit; allowed: special;" -->
 
                 </div>
